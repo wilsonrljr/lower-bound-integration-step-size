@@ -1,0 +1,18 @@
+Lorenz		
+int=[0:dt:500]; 
+h=0.09		maxm= 390
+h=0.07		maxm= 576
+h=0.05		maxm= 796
+h=0.03		maxm= 1310
+h=0.01		maxm= 3473
+h=0.009		maxm= 4112
+h=0.007		maxm= 5240
+
+Rossler
+h=0.09		maxm= 4197
+h=0.07		maxm= 576
+h=0.05		maxm= 796
+h=0.03		maxm= 1310
+h=0.01		maxm= 27262
+h=0.009		maxm= 39652
+h=0.003		maxm= 103405

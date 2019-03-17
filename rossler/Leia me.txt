@@ -1,0 +1,18 @@
+Todos os arquivos na pasta .rar devem estar na mesma pasta (de cada modelo)
+
+O arquivo rossler.m (ou duffing.m e lorenz.m) contém a função
+dos respectivos modelos a serem simulados. Nesse arquivo escolhe-se
+qual equivalencia matemática utilizar. Comente qual não for utilizar.
+
+O arquivo executar.m define os parametros do modelo, o passo de integração,
+as condições iniciais, simula o modelo utilizando Runge Kutta de 
+quarta ordem, plota os dados resultantes do modelo e salva os dados.
+Do jeito que está, apenas a variavel dx/dt está sendo salva para analise.
+Define o nome do arquivo a ser salvo para ser utilizado no arquivo Rplot.
+
+O arquivo rk4 contem a função que executa o runge kutta de quarta ordem
+
+O arquivo Rplot (ou Lplot e Dplot) calcula o lower bound, plota a comparação
+entre as equivalencias e plot o erro, além de dar o numero máximo de iterações
+até ultrapassar o critério de parada. Basta carregar os dados salvos pelo arquivo
+executar.m e executar o Rplot.
