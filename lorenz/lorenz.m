@@ -4,9 +4,9 @@ INTEGRATION STEP-SIZE IN THE SIMULATION OF CHAOTIC SYSTEMS
 
 download: https://www.researchgate.net/publication/331824062_The_Lower_Bound_Error_as_an_Auxiliary_Technique_to_Select_the_Integration_Step-size_in_the_Simulation_of_Chaotic_Systems
 
-Uso: Essa rotina gera os dados do modelo de Duffing. Ver também: Dplot.m
+Uso: Essa rotina gera os dados do modelo de Lorenz. Ver também: Lplot.m
 
-Other m-files required: rk4.m, rk5.m, duffing.m
+Other m-files required: rk4.m, rk5.m, lorenz.m
 Subfunctions: none
 MAT-files required: none
 See also: rk4.m, rk5.m, duffing.m, Dplot.m
